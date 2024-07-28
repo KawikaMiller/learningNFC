@@ -37,7 +37,6 @@ export default function App() {
       // once we know that the tag has NDef tech capabilities, we get the tag data
       const tag = await NfcManager.getTag();
       console.log('TAG DATA: ', tag);
-      console.log('TAG NDEF MESSAGE: ', tag.ndefMessage[0]);
       // check to see if a tag has a message attached to it
       const message = await NfcManager.ndefHandler.getNdefMessage();
       // if the message exists, it should be encoded/stored as bytes on the tag - therefore we need to decode it into a string

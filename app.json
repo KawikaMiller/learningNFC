@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "blankTest2",
-    "slug": "blankTest2",
+    "name": "learningNFC",
+    "slug": "learningNFC",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,14 +13,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.kmdevsign.blankTest2"
+      "bundleIdentifier": "com.kmdevsign.learningNFC"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.kmdevsign.blankTest2"
+      "package": "com.kmdevsign.learningNFC"
     },
     "web": {
       "favicon": "./assets/favicon.png"

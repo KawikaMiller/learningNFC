@@ -1,4 +1,4 @@
-package com.kmdevsign.blankTest2
+package com.kmdevsign.learningNFC
 
 import android.app.Application
 import android.content.res.Configuration

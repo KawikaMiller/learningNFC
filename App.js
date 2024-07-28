@@ -62,8 +62,11 @@ export default function App() {
 
   const writeTag = async () => {
     try {
+      // request/check for ndef capabilities of Nfc tag
       await NfcManager.requestTechnology(NfcTech.Ndef)
+      // encode the message that we want to store on the tag
       const message = Ndef.encodeMessage([Ndef.textRecord('Write A Test Message')])
+      // write the message to the tag
       await NfcManager.ndefHandler.writeNdefMessage(message)
     } catch (e) {
       console.warn('Error writing to tag', e)

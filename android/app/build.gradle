@@ -83,9 +83,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.kmdevsign.blankTest2'
+    namespace 'com.kmdevsign.learningNFC'
     defaultConfig {
-        applicationId 'com.kmdevsign.blankTest2'
+        applicationId 'com.kmdevsign.learningNFC'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

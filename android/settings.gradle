@@ -1,4 +1,4 @@
-rootProject.name = 'blankTest2'
+rootProject.name = 'learningNFC'
 
 dependencyResolutionManagement {
   versionCatalogs {

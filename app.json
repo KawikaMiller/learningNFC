@@ -13,14 +13,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.kmdevsign.learningNFC"
+      "bundleIdentifier": "com.dti.nfcapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.kmdevsign.learningNFC"
+      "package": "com.dti.nfcapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -1,4 +1,4 @@
-package com.kmdevsign.learningNFC
+package com.dti.nfcapp
 
 import android.os.Build
 import android.os.Bundle
